@@ -1,0 +1,56 @@
+{
+    "category": "plugins",
+    "display": "List Inserter - insert value at position",
+    "fields": {
+        "AAD": {
+            "caption": "original list",
+            "doc": "The list you wish to change",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "originalList",
+            "rank": 0,
+            "value": "number"
+        },
+        "AAF": {
+            "caption": "position",
+            "doc": "The position to insert the value (starts at index 1)",
+            "editor": "DynamicValue",
+            "name": "position",
+            "rank": 1,
+            "value": "number"
+        },
+        "AAG": {
+            "caption": "value",
+            "doc": "The value to insert into the list",
+            "editor": "DynamicValue",
+            "name": "value",
+            "rank": 2,
+            "value": "number"
+        },
+        "AAH": {
+            "caption": "pad value",
+            "default_val": 0,
+            "doc": "If the list needs to be lengthened, use this as the empty values",
+            "editor": "DynamicValue",
+            "name": "padValue",
+            "rank": 3,
+            "value": "number"
+        }
+    },
+    "return_value": {
+        "AAE": {
+            "caption": "altered list",
+            "is_list": true,
+            "name": "alteredList",
+            "rank": 0,
+            "value": "number"
+        },
+        "AAI": {
+            "caption": "debug",
+            "name": "debug",
+            "rank": 1,
+            "value": "text"
+        }
+    },
+    "type": "server_side"
+}

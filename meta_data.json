@@ -1,0 +1,9 @@
+{
+    "categories": {
+        "0": "technical"
+    },
+    "description": "A utility to insert values into a list. You pass it an original list and it returns an altered list, and grows the list if required with padded values.",
+    "image": "//s3.amazonaws.com/appforest_uf/f1644715554805x848698883652169300/Screenshot%202022-02-13%20at%2014.22.06.png",
+    "license": "open_source",
+    "name": "List Inserter"
+}
