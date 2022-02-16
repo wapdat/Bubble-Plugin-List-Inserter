@@ -1,42 +1,42 @@
 {
     "category": "plugins",
-    "display": "List Inserter - insert Number at position",
+    "display": "List Inserter -  insert Text at position",
     "fields": {
-        "AAD": {
+        "AAK": {
             "caption": "original list",
             "doc": "The list you wish to change",
             "editor": "DynamicValue",
             "is_list": true,
             "name": "originalList",
             "rank": 1,
-            "value": "number"
+            "value": "text"
         },
-        "AAF": {
+        "AAL": {
             "caption": "position",
             "doc": "The position to insert the value (starts at index 1)",
             "editor": "DynamicValue",
             "name": "position",
             "rank": 2,
-            "value": "number"
+            "value": "text"
         },
-        "AAG": {
+        "AAM": {
             "caption": "value",
             "doc": "The value to insert into the list",
             "editor": "DynamicValue",
             "name": "value",
             "rank": 3,
-            "value": "number"
+            "value": "text"
         },
-        "AAH": {
+        "AAN": {
             "caption": "pad value",
-            "default_val": 0,
+            "default_val": "x",
             "doc": "If the list needs to be lengthened, use this as the empty values",
             "editor": "DynamicValue",
             "name": "padValue",
             "rank": 4,
-            "value": "number"
+            "value": "text"
         },
-        "AAJ": {
+        "AAO": {
             "caption": "Pads the list and splices in the value at the position",
             "editor": "Label",
             "name": "info1",
@@ -49,7 +49,7 @@
             "is_list": true,
             "name": "alteredList",
             "rank": 0,
-            "value": "number"
+            "value": "text"
         },
         "AAI": {
             "caption": "debug",

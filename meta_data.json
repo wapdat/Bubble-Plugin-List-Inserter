@@ -2,8 +2,11 @@
     "categories": {
         "0": "technical"
     },
+    "demo_page": "https://list-inserter.bubbleapps.io/version-test?debug_mode=true",
     "description": "A utility to insert values into a list. You pass it an original list and it returns an altered list, and grows the list if required with padded values.",
     "image": "//s3.amazonaws.com/appforest_uf/f1644715554805x848698883652169300/Screenshot%202022-02-13%20at%2014.22.06.png",
     "license": "open_source",
-    "name": "List Inserter"
+    "link": "https://list-inserter.bubbleapps.io/version-test",
+    "name": "List Inserter",
+    "plugin_instructions": "Install the plugin. Under plugins use the server side action -\n\nList Inserter - insert value at position\n\nSee the service page for instructions. "
 }
